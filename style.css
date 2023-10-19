@@ -1,0 +1,86 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.header-content {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ff4500;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.contact-info {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+ul.skill-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.skill-list li::before {
+    content: "\2022";
+    color: #ff4500;
+    font-size: 16px;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ff4500;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #333;
+}
+
+.portfolio-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.portfolio-links li {
+    margin-bottom: 10px;
+}
+
+/* Add media queries for responsive design as needed */
